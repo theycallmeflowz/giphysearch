@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+  
+</head>
+
+<body>
+    <div class="container">
+        <h1>Giphy Search</h1>
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div><br>
+
+        <form id="giphy-form">
+            <label for="giphy-input">Add New Giphy Button</label>
+            <input type="text" id="giphy-input"><br><br>
+
+            <!-- Button triggers new movie to be added -->
+            <input class="btn-primary" id="add-giphy" type="submit" value="Add Giphy Button">
+            <input class="btn-danger" id="clear" type="submit" value="Clear Page"> 
+        </form>
+        <!-- Gif will Get Dumped Dere -->
+        <div id="giphy-view"></div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>
+     
